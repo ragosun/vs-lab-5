@@ -153,3 +153,7 @@ VALUES
     NULL,
     (SELECT id FROM groups WHERE short_name = 'Б-ИВТ-25-2')
 );
+
+SELECT * FROM institutes;
+SELECT * FROM groups;
+SELECT * FROM students;
